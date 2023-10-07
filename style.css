@@ -38,10 +38,11 @@ button
     height: 3rem;
     width: 3rem;
     cursor: pointer;
-
+    background-color: crimson;
+    border: rgba(0, 0, 0, 0.2);
 }
 
-.row1 input
+.row0 input
 {
     width: 15.8rem;
     height: 2rem;
@@ -50,7 +51,7 @@ button
     margin-top: 0.1rem;
     border-radius:0.2rem;
     font-size: 1.5rem;
-
+    border-color: rgba(0, 0, 0, 0.6) ;
 }
 
 button:active

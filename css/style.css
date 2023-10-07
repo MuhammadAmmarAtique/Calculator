@@ -17,18 +17,18 @@ background-color:rgba(255, 248, 220, 0.2)
     text-align: center;
     font-size: 2rem;
     text-transform: uppercase;
-    background-color: cadetblue;
-
+    color: white;
+    /* background-color: cadetblue; */
 }
 
 .container
 {
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
 
 button
@@ -41,6 +41,7 @@ button
     width: 3rem;
     cursor: pointer;
     background-color: crimson;
+    color: white;
     border: rgba(0, 0, 0, 0.2);
 }
 
@@ -54,16 +55,23 @@ button
     border-radius:0.2rem;
     font-size: 1.5rem;
     border-color: rgba(0, 0, 0, 0.6) ;
+    background-color: crimson;
+    color: white;
+
 }
 
 button:active
 {
     transform: scale(0.9);
+    border-color:white ;
 }
 
 main
 {
-    background-color: grey;
+    /* background-color: grey; */
+    background-image: url('../imgs/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
     height: 100vh;
 }
 

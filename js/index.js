@@ -1,5 +1,4 @@
 let string="";
-
 let buttons=document.querySelectorAll('button');
 // console.log(buttons);
 
@@ -35,11 +34,13 @@ buttons.forEach( (button)=>{
         }
 
         // first of all user will type numbers so this code will be executed first!
-        else {
+        else 
+        {
             string=string+ button.innerHTML;
-            document.querySelector('input').value= string;
+            document.querySelector('input').value= string
         } 
     })
 } )
+
 
 

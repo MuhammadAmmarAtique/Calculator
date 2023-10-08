@@ -14,7 +14,7 @@ buttons.forEach( (button)=>{
            string= string.replace('x','*');
             console.log(string);
 
-            // After concatingf string ,eval()  function will take concatenated string as its argument and treats that string as JavaScript code.
+            // After concating string ,eval()  function will take concatenated string as its argument and treats that string as JavaScript code.
            string=eval(string);
            document.querySelector('input').value= string;
         } 

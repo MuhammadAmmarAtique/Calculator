@@ -48,7 +48,7 @@ button
 .row0 input
 {
     width: 15.8rem;
-    height: 2rem;
+    height: 2.5rem;
     padding: 0.4rem;
     /* border: none; */
     margin-top: 0.1rem;
@@ -74,4 +74,5 @@ main
     background-repeat: no-repeat;
     height: 100vh;
 }
+
 

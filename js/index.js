@@ -10,22 +10,35 @@ buttons.forEach( (button)=>{
 
         if (button.innerHTML == "=") 
         {
+            // if there is ÷ or x in string it will be replaced with /,* which is understandable by browser.
+           string= string.replace('÷','/');
+           string= string.replace('x','*');
+            console.log(string);
+
+            // After concatingf string ,eval()  function will take concatenated string as its argument and treats that string as JavaScript code.
            string=eval(string);
            document.querySelector('input').value= string;
         } 
+
+        // For clearing everything in input field.
         else if (button.innerHTML == "C") 
         {
             string="";
             document.querySelector('input').value= string;
-            
         }
-        else {
-            string=string+ button.innerHTML;
+
+        //For last letter from input field
+        else if(button.innerHTML == "←")
+        {
+            string=string.slice(0,-1);
             document.querySelector('input').value= string;
         }
 
-
-       
+        // first of all user will type numbers so this code will be executed first!
+        else {
+            string=string+ button.innerHTML;
+            document.querySelector('input').value= string;
+        } 
     })
 } )
 

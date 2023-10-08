@@ -29,6 +29,8 @@ buttons.forEach( (button)=>{
         //For last letter from input field
         else if(button.innerHTML == "←")
         {
+            // b/c sometimes after evaluating by eval() it was converting into no, so converting back into string
+            string=string.toString();
             string=string.slice(0,-1);
             document.querySelector('input').value= string;
         }

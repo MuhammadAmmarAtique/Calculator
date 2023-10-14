@@ -1,6 +1,6 @@
 # Calculator Web Application
 
-![Calculator Preview](imgs/preview.png)
+![Calculator Preview](imgs/screenshot.png)
 
 Welcome to my Calculator web application! This simple calculator allows you to perform basic arithmetic calculations right in your browser. You can add, subtract, multiply, divide, and perform other operations easily.
 
